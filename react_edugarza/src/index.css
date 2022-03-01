@@ -1,0 +1,56 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100vh;
+}
+
+body{
+  background-color: azure;
+}
+
+header{color: white;
+background-color: midnightblue;}
+
+#Lang{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: baseline;
+	align-content: space-between;
+  list-style: none;
+  padding:20px;
+}
+#NavBar{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: baseline;
+	align-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  padding:20px;
+}
+a #NavBar{
+  margin-left: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+ 
+}
+
+footer{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-end;
+  background-color: midnightblue;
+  color: white;
+}

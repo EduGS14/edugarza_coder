@@ -1,0 +1,5 @@
+create-react-app react_edugarza // es la manera de crear carpetas ya de react_edugarza
+agregar el "sudo" antes de los comandos genera una super user domane,
+npm start // levanta la app esto se tiene que hacer todo el tiempo (sobre la carpeta en la que se esdsta trabahjando)
+
+
