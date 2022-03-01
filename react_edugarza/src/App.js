@@ -4,6 +4,7 @@
 
 import Header from "./Header"
 import NavBar from "./Componentes/NavBar"
+import Main from "./Componentes/Main"
 import Footer from "./Footer"
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <>
       <Header/>
       <NavBar/>
+      <Main/>
       <Footer/>
     </>
   )
