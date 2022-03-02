@@ -2,17 +2,26 @@
 
 //export default App 
 
-import Header from "./Header"
+import Header from "./Componentes/Header"
 import NavBar from "./Componentes/NavBar"
 import Main from "./Componentes/Main"
-import Footer from "./Footer"
+import Footer from "./Componentes/Footer"
 
 const App = () => {
+
+  const persona={
+    nombre:"Eduardo",
+    edad:"26"
+  }
+  const nombre = "Eduardo"
+
+
   return (
     <>
-      <Header/>
+      <Header nombre ={nombre}/>
       <NavBar/>
-      <Main/>
+      {/*<Main nombre="Eduardo" edad={26}/>*/}
+      <Main nombre={["Eduardo", "Garza", "Serramo"]} />
       <Footer/>
     </>
   )

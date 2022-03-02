@@ -37,11 +37,12 @@ background-color: midnightblue;}
   padding:20px;
 }
 a #NavBar{
-  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
   list-style: none;
   text-decoration: none;
   color: white;
- 
 }
 
 footer{

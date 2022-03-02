@@ -15,6 +15,7 @@ const NavBar = () => {
          <a href="#">Tienda</a>
          <a href="#">Otros</a>
      </nav>
+     
     
      </div>
   )
